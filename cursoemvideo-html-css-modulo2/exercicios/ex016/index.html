@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+
+    <link rel="stylesheet" href="../../../return.css">
+
+    <style>
+        body {
+            background-image: linear-gradient(145deg, #cdb4db, #ffafcc, #a2d2ff);
+            background-attachment: fixed;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cores e degradê em CSS</h1>
+    <code>
+        <pre>
+    body {
+    background-image: 
+        linear-gradient(145deg, 
+                        #cdb4db, 
+                        #ffafcc, 
+                        #a2d2ff);
+    }
+        </pre>
+    </code>
+
+    <!-- Representação por nomes -->
+    <h2 style="background-color: blue; color: white;">Exemplo de cores por extenso</h2>
+    <code>
+        <pre>   blue</pre>
+    </code>
+    <br>
+
+    <!-- Representação por códigos hexadecimais -->
+    <!-- Decimal: 0 1 2 3 4 5 6 7 8 9 -->
+    <!-- Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F -->
+    <h2 style="background-color: #00F; color: #FFF;">Exemplo de cores por código hexadecimal</h2>
+    <code>
+        <pre>   #0000FF ou #00F</pre>
+    </code>
+    <br>
+
+    <!-- Representação por RGB - Red Green Blue (Vermelho Verde Azul) -->
+    <!-- Escala de 0 até 255 -->
+    <h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);">Exemplo de cores por função RGB</h2>
+    <code>
+        <pre>   rgb(0, 0, 255)</pre>
+    </code>
+    <br>
+
+    <!-- Representação por HSL - Hue Saturation Lightness (Matiz Saturação Luminosidade) -->
+    <h2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de cores por função HSL</h2>
+    <code>
+        <pre>   hsl(240, 100%, 50%)</pre>
+    </code>
+    <br>
+
+    <!-- Representação por RGBA - Red Green Blue Alpha (Vermelho Verde Azul Alfa) -->
+    <!-- Escala de 0 até 255 -->
+    <!-- Alpha de 0 a 1 ou 0% a 100% -->
+    <h2 style="background-color: rgba(0, 0, 255, .2); color: rgb(255, 255, 255);">Exemplo de cores por função RGBA</h2>
+    <code>
+        <pre>   rgba(0, 0, 255, .2)</pre>
+    </code>
+    <br>
+
+    <!-- Representação por HSLA - Hue Saturation Lightness Alpha (Matiz Saturação Luminosidade Alfa) -->
+    <!-- Escala hue 0 a 360 -->
+    <!-- Escala saturation e lightness 0 a 100%  -->
+    <!-- Alpha de 0 a 1 ou 0% a 100% -->
+    <h2 style="background-color: hsla(240, 100%, 50%, .2); color: hsl(0, 0%, 100%);">Exemplo de cores por função HSLA</h2>
+    <code>
+        <pre>   hsla(240, 100%, 50%, .2)</pre>
+    </code>
+    <br>
+
+    <a href="page.html">Site de exemplo</a>
+
+    <a class="return" href="../../../index.html">Retornar à página de navegação</a>
+    <a class="return -mobile" href="../../../index.html">&lt;&lt;</a>
+</body>
+
+</html>

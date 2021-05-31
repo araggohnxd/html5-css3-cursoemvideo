@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" href="../../../return.css">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em: relativa a letra M da fonte determinada pro elemento (altura do M maiúsculo)
+            rem: relativa a letra M da fonte determinada no root da página
+            ex: relativa a altura X da fonte determinada pro elemento (altura do x minúsculo)
+            vw: relativa a largura do dispositivo (viewport width)
+            %: relativa ao tamanho do elemento pai
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* 
+            shorthand font
+            - font-style > font-weight > font-size > font-family
+
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans', sans-serif;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus reprehenderit nostrum dicta accusantium similique perferendis autem nesciunt fugiat iste soluta velit nisi officiis, saepe repudiandae libero earum debitis laboriosam dolore quisquam laborum ipsum. Similique error temporibus, et eveniet atque dolore quas deleniti numquam itaque, quod eum doloribus eos quidem praesentium molestiae explicabo magnam a! Delectus neque commodi odit architecto aliquam, vitae nesciunt aut quas tempora exercitationem eligendi ad laborum voluptatum quae minima culpa fuga rerum labore id veniam nihil quaerat similique fugiat? Quae pariatur provident voluptatum aperiam natus, enim aut eveniet ex sequi sed vitae non tempora nesciunt excepturi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quas ab autem et debitis quibusdam distinctio esse praesentium possimus reprehenderit architecto ipsum inventore sed qui quod cum corporis, recusandae itaque veniam provident officia velit nesciunt odit. Beatae, sed pariatur corporis animi rem facilis ullam accusamus optio non id voluptate quo.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem mollitia aliquam, fugit voluptate tenetur magni deleniti! Nesciunt, illum! Obcaecati modi tempore quia, sed atque inventore amet aut earum voluptates voluptas.</p>
+
+    <a class="return" href="../../../index.html">Retornar à página de navegação</a>
+    <a class="return -mobile" href="../../../index.html">&lt;&lt;</a>
+</body>
+</html>

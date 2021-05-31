@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <link rel="stylesheet" href="../../../return.css">
+    <style>
+        @font-face {
+            font-family: 'London';
+            src: url(fonts/OldLondon.ttf) format('truetype'), url(fonts/Olondon_.otf) format('opentype');
+        }
+
+        @font-face {
+            font-family: 'Uniflex';
+            src: url(fonts/Uniflex_PersonalUseOnly.ttf) format('truetype');
+        }
+
+        body {
+            font-family: Uniflex, sans-serif;
+            font-size: 1.2em;
+        }
+
+        h1 {
+            font-family: London, sans-serif;
+            font-size: 3em;
+        }
+
+        h2 {
+            font-family: London, sans-serif;
+            font-size: 2em;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes externas</h1>
+    <p>A fonte utilizada no título é a fonte Old London, retirada do site <a href="https://www.dafont.com/pt/old-london.font" target="_blank">DaFont</a>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur possimus, fugiat velit pariatur magni dignissimos. Amet hic reiciendis perferendis ipsum odit temporibus laboriosam nemo fuga quo, maxime corrupti quod officiis?</p>
+
+    <h2>Subtítulo</h2>
+    <p>A fonte utilizada nos parágrafos é a fonte Uniflex, retirada do site <a href="https://www.dafont.com/pt/uniflex.font" target="_blank">DaFont</a> (sim, ela é horrível). Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque vitae earum dolore beatae nisi a officiis rerum, doloremque nemo. Molestias, ipsam eveniet. Incidunt animi inventore mollitia, voluptates distinctio recusandae corrupti.</p>
+
+    <a href="index.html">Página anterior</a>
+
+    <a class="return" href="../../../index.html">Retornar à página de navegação</a>
+    <a class="return -mobile" href="../../../index.html">&lt;&lt;</a>
+</body>
+</html>

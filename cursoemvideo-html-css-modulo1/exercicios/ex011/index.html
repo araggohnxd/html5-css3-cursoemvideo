@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+
+    <link rel="stylesheet" href="../../../return.css">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 850px)" srcset="img/img-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="img/img-m.png" type="image/png">
+        <img src="img/img-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    
+    <label for="bibi">Esse áudio deve ser reproduzido automaticamente: </label>
+    <audio id="bibi" preload="metadata" autoplay controls>
+        <source src="media/good-feeling.mp3" type="audio/mpeg">
+        <p>Infelizmente, seu navegador não suporta reprodução de áudio. <a href="media/good-feeling.mp3" download="BIBI - Good Feeling">Clique aqui para baixar o áudio</a> e ouví-lo da sua própria máquina.</p>
+    </audio>
+    <br>
+
+    <label for="vk">Esse áudio NÃO deve ser reproduzido automaticamente: </label>
+    <audio id="vk" preload="metadata" controls>
+        <source src="media/vkmac-forreal.mp3" type="audio/mpeg">
+        <p>Infelizmente, seu navegador não suporta reprodução de áudio. <a href="media/vkmac-forreal.mp3" download="VK Mac - For Real (Cover)">Clique aqui para baixar o áudio</a> e ouví-lo da sua própria máquina.</p>
+    </audio>
+<a class="return" href="../../../index.html">Retornar à página de navegação</a>
+    <a class="return -mobile" href="../../../index.html">&lt;&lt;</a>
+</body>
+</html>
