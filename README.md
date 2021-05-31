@@ -1,4 +1,4 @@
-# Curso de HTML5 e CSS3: Módulo 1 de 5 - Curso em Vídeo
+# Curso de HTML5 e CSS3, Curso em Vídeo
 
 Curso elaborado pelo prof. Gustavo Guanabara, onde são exercitadas habilidades básicas de estruturação e estilização de páginas web utilizando as linguagens HTML5 e CSS3.
 
